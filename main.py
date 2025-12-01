@@ -19,4 +19,4 @@ def find_lowercase_vowel(msg: str):
         if char in 'aeiou':
             return index
     return len(msg)
-    print("Testing webhook on staging branch!")
+    print("Testing the webhook on staging branch!")
