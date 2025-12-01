@@ -1,4 +1,3 @@
-"""Stagings"""
 def odds_sum(L):
     """Return the sum of the odd elements of L."""
     return sum([i for i in L if i % 2 != 0])
@@ -19,3 +18,4 @@ def find_lowercase_vowel(msg: str):
         if char in 'aeiou':
             return index
     return len(msg)
+    """Stagings"""
