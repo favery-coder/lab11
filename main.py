@@ -5,7 +5,7 @@ def odds_sum(L):
 def has_letter_cases(s: str):
     """
     Return True if and only if s contains at least one lowercase letter and at 
-    least one uppercase letter.
+    least one  uppercase letter.
     """
     return not s.isupper() and not s.islower()
 
